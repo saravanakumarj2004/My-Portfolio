@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import ProjectDetails from './pages/ProjectDetails';
 import ScrollProgress from './components/ScrollProgress';
-import ParticleBackground from './components/ParticleBackground';
 import ThemeSwitcher from './components/ThemeSwitcher';
 
 import { Routes, Route, useLocation } from 'react-router-dom';
@@ -13,10 +12,9 @@ function App() {
   const location = useLocation();
 
   return (
-    <div className="min-h-screen text-slate-900 dark:text-slate-100 font-sans transition-colors duration-500 relative">
+    <div className="min-h-screen text-slate-900 dark:text-slate-100 font-sans transition-colors duration-500 relative overflow-x-hidden w-full">
       {/* Global Enhancement Components */}
       <ScrollProgress />
-      <ParticleBackground />
       <ThemeSwitcher />
 
       <Navbar />

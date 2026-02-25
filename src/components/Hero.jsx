@@ -4,7 +4,7 @@ import { ArrowRight, Download, User } from 'lucide-react';
 
 const Hero = () => {
     return (
-        <section id="home" className="min-h-screen flex items-center justify-center pt-24 px-6 relative">
+        <section id="home" className="min-h-screen flex items-center justify-center pt-24 px-6 relative overflow-hidden">
 
             {/* Abstract Background Blobs for visual interest */}
             <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-purple-500/30 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob mix-blend-screen"></div>

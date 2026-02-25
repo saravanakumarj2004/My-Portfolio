@@ -20,7 +20,7 @@ const Navbar = () => {
             initial={{ y: -100 }}
             animate={{ y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
-            className="fixed top-0 left-0 right-0 z-50 px-6 py-4 glass-panel border-b rounded-b-2xl mx-4 mt-2"
+            className="fixed top-0 left-4 right-4 z-50 px-6 py-4 glass-panel border-b rounded-b-2xl mt-2"
         >
             <div className="flex justify-between items-center relative">
                 <div className="text-2xl font-bold tracking-tight z-50">

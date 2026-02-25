@@ -4,7 +4,7 @@ const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
     const [theme, setTheme] = useState('dark'); // Default to dark mode for a premium feel
-    const [accentTheme, setAccentTheme] = useState('default'); // 'default', 'aurora', 'sunset'
+    const [accentTheme, setAccentTheme] = useState('aurora'); // 'default', 'aurora', 'sunset'
 
     useEffect(() => {
         const root = window.document.documentElement;
