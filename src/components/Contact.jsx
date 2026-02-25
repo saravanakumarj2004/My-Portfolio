@@ -88,12 +88,12 @@ const Contact = () => {
 
                             <div className="space-y-6 relative z-10">
                                 <a href="mailto:jsaravanakumar2004@gmail.com" className="flex items-center gap-4 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors group/link cursor-none">
-                                    <div className="p-4 bg-blue-500/10 text-blue-600 dark:text-blue-400 rounded-2xl group-hover/link:bg-blue-600 group-hover/link:text-white transition-colors">
+                                    <div className="p-4 bg-blue-500/10 text-blue-600 dark:text-blue-400 rounded-2xl group-hover/link:bg-blue-600 group-hover/link:text-white transition-colors shrink-0">
                                         <Mail size={24} />
                                     </div>
-                                    <div className="flex flex-col">
+                                    <div className="flex flex-col overflow-hidden">
                                         <span className="text-sm text-slate-500 dark:text-slate-400 font-medium">Email Me</span>
-                                        <span className="font-semibold text-lg">jsaravanakumar2004@gmail.com</span>
+                                        <span className="font-semibold text-base md:text-lg break-all">jsaravanakumar2004@gmail.com</span>
                                     </div>
                                 </a>
 

@@ -29,7 +29,7 @@ const Hero = () => {
                         <span className="text-gradient">Saravana Kumar J</span>
                     </h1>
 
-                    <h2 className="text-xl md:text-2xl font-medium text-slate-600 dark:text-slate-300 h-8 flex items-center">
+                    <h2 className="text-sm sm:text-xl md:text-2xl font-medium text-slate-600 dark:text-slate-300 h-8 flex items-center max-w-full">
                         <motion.span
                             initial={{ width: 0 }}
                             animate={{ width: "100%" }}
@@ -41,7 +41,7 @@ const Hero = () => {
                         <motion.span
                             animate={{ opacity: [1, 0, 1] }}
                             transition={{ repeat: Infinity, duration: 0.8 }}
-                            className="inline-block w-[3px] h-6 bg-blue-500 ml-1"
+                            className="inline-block w-[3px] h-4 sm:h-6 bg-blue-500 ml-1 shrink-0"
                         />
                     </h2>
 
@@ -107,7 +107,7 @@ const Hero = () => {
                         </div>
 
                         {/* Code snippets */}
-                        <div className="flex flex-col gap-3 font-mono text-sm sm:text-base relative z-10">
+                        <div className="flex flex-col gap-3 font-mono text-xs sm:text-sm md:text-base relative z-10 overflow-hidden max-w-full">
                             <motion.div
                                 initial={{ width: 0 }}
                                 animate={{ width: "100%" }}
